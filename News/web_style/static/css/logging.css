@@ -1,0 +1,44 @@
+html {
+    overflow: none;
+}
+
+
+body {
+    background: linear-gradient(to left, #17171c 0%, #0d324d 74%);
+}
+
+.title {
+    color: green;
+}
+
+.task {
+    color: yellowgreen;
+    text-align: left;
+}
+
+.button {
+    background-color: #290b89; /* Green */
+    border: solid 1px;
+    color: blue;
+    border-radius: 8px;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-link {
+    color: red;
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 30px;
+}
+
+th {
+    color: green;
+}
+
+.column {
+    border-spacing: 8px 10px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link href="{% static 'css/logging.css' %}" rel="stylesheet"/>
+    <title>Logging</title>
+</head>
+<body>
+    <div align="center">
+        <h1 class="title"> This is page for checking logging D16.4</h1>
+    </div>
+
+    <hr>
+    <!--Блок задания 1-->
+    <div>
+        <h3 class="task">TASK 1<br></h3>
+        <p class="task">
+            В консоль должны выводиться все сообщения уровня DEBUG и выше, включающие время, уровень сообщения, сообщения. <br>
+            Для сообщений WARNING и выше дополнительно должен выводиться путь к источнику события (используется аргумент pathname в форматировании).<br>
+            А для сообщений ERROR и CRITICAL еще должен выводить стэк ошибки (аргумент exc_info). Сюда должны попадать все сообщения с основного логгера django.
+        </p>
+        <p class="task">P.S.<br></p>
+        <p class="task">
+            <i>
+                Все views для данной страницы прописаны в views.py начиная со строки 190. <br>
+                Логи <b>logger.debug(), logger.warning() и logger.error()</b> запускаются при помощи кнопок ниже DEBUG, WARNING и ERROR соответственно, выводя информацию в консоль.
+            </i>
+        </p>
+        <button class="button"><a class="button-link" href="{% url 'debug' %}">DEBUG</a></button>
+        <button class="button"><a class="button-link" href="{% url 'warning' %}">WARNING</a></button>
+        <button class="button"><a class="button-link" href="{% url 'error' %}">ERROR</a></button>
+        <button class="button"><a class="button-link" href="{% url 'critical' %}">CRITICAL</a></button>
+    </div>
+
+    <hr class="line">
+    <!--Блок задания 2-->
+    <div>
+        <h3 class="task">TASK 2<br></h3>
+        <p class="task">
+            В файл <b>general.log</b> должны выводиться сообщения уровня INFO и выше только с указанием времени, уровня логирования, модуля, в котором возникло сообщение (аргумент module) и само сообщение. Сюда также попадают сообщения с регистратора django.
+        </p>
+        <p class="task">P.S.<br></p>
+        <p class="task"><i>Логи записанные в файл general.log расположены в папке <b>logs_files</b> в корне проекта.</i></p>
+        <button class="button"><a class="button-link" href="{% url 'info' %}">INFO</a></button>
+        <button class="button"><a class="button-link" href="{% url 'warning' %}">WARNING</a></button>
+        <button class="button"><a class="button-link" href="{% url 'error' %}">ERROR</a></button>
+        <button class="button"><a class="button-link" href="{% url 'critical' %}">CRITICAL</a></button>
+    </div>
+
+    <hr class="line">
+    <!--Блок задания 3-->
+    <div>
+        <h3 class="task">TASK 3<br></h3>
+        <p class="task">
+            В файл <b>errors.log</b> должны выводиться сообщения только уровня ERROR и CRITICAL. В сообщении указывается время, уровень логирования, само сообщение, путь к источнику сообщения и стэк ошибки. <br>
+            В этот файл должны попадать сообщения только из логгеров <b>django.request, django.server, django.template, django.db.backends</b>.
+        </p>
+        <p class="task">P.S.<br></p>
+        <p class="task"><i>Логи записанные в файл errors.log расположены в папке <b>logs_files</b> в корне проекта.</i></p>
+        <table class="column">
+            <tr>
+                <th>django.request</th>
+                <th>django.server</th>
+                <th>django.template</th>
+                <th>django.db.backends</th>
+            </tr>
+            <tr>
+                <td class="column">
+                    <button class="button"><a class="button-link" href="{% url 'error_t3r' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3r' %}">CRITICAL</a></button>
+                </td>
+                <td>
+                    <button class="button"><a class="button-link" href="{% url 'error_t3s' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3s' %}">CRITICAL</a></button>
+                </td>
+                <td>
+                    <button class="button"><a class="button-link" href="{% url 'error_t3t' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3t' %}">CRITICAL</a></button>
+                </td>
+                <td>
+                    <button class="button"><a class="button-link" href="{% url 'error_t3d' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3d' %}">CRITICAL</a></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr class="line">
+    <!--Блок задания 4-->
+    <div>
+        <h3 class="task">TASK 4<br></h3>
+        <p class="task">
+            В файл <b>security.log</b> должны попадать только сообщения, связанные с безопасностью, а значит только из логгера <b>django.security</b>. Формат вывода предполагает время, уровень логирования, модуль и сообщение.
+        </p>
+        <p class="task">P.S.<br></p>
+        <p class="task"><i>Логи записанные в файл security.log расположены в папке <b>logs_files</b> в корне проекта.</i></p>
+        <button class="button" id="button"><a class="button-link" href="{% url 'security_info' %}">INFO</a></button>
+        <button class="button"><a class="button-link" href="{% url 'security_warning' %}">WARNING</a></button>
+        <button class="button"><a class="button-link" href="{% url 'security_error' %}">ERROR</a></button>
+        <button class="button"><a class="button-link" href="{% url 'security_critical' %}">CRITICAL</a></button>
+    </div>
+
+    <hr class="line">
+    <!--Блок задания 4-->
+    <div>
+        <h3 class="task">TASK 5<br></h3>
+        <p class="task">
+            На почту должны отправляться сообщения уровней ERROR и выше из <b>django.request</b> и <b>django.server</b> по формату, как в <b>errors.log</b>, но без стэка ошибок. <br>
+            Более того, при помощи фильтров нужно указать, что в консоль сообщения отправляются только при <b>DEBUG = True</b>, а на почту и в файл <b>general.log</b> — только при <b>DEBUG = False</b>.
+        </p>
+        <p class="task">P.S.<br></p>
+        <p class="task"><i>Необходимо установить DEBUG = False!!!</i></p>
+        <table class="column">
+            <tr>
+                <th>django.request</th>
+                <th>django.server</th>
+            </tr>
+            <tr>
+                <td class="column">
+                    <button class="button"><a class="button-link" href="{% url 'error_t3r' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3r' %}">CRITICAL</a></button>
+                </td>
+                <td>
+                    <button class="button"><a class="button-link" href="{% url 'error_t3s' %}">ERROR</a></button>
+                    <button class="button"><a class="button-link" href="{% url 'critical_t3s' %}">CRITICAL</a></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

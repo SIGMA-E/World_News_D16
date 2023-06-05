@@ -1,0 +1,80 @@
+"Time": "2023-06-04 12:27:29,740", "Level": "ERROR", "Message": "ERROR DataBase - Some kind of problem with a model field", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.FieldError'>, FieldError(), <traceback object at 0x7f00d97b2d80>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 269, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:27:35,657", "Level": "CRITICAL", "Message": "CRITICAL DataBase - Some kind of problem with a model field", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.FieldError'>, FieldError(), <traceback object at 0x7f00d8e63840>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:55:01,591", "Level": "CRITICAL", "Message": "CRITICAL DataBase - Some kind of problem with a model field", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.FieldError'>, FieldError(), <traceback object at 0x7f00d8d81680>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 14:51:06,056", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f37d27aa5c0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:29:24,413", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f6903654f80>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:33:14,578", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7fb8d87b6780>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:35:01,029", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f9f037ac3c0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:38:33,780", "Level": "ERROR", "Message": "ERROR Server - HTTP_HOST header contains invalid value", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.DisallowedHost'>, DisallowedHost(), <traceback object at 0x7f9f02e86a00>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 242, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 15:40:05,267", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f372e434dc0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:41:09,256", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f3c9d083140>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:44:18,141", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f9550bc26c0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:45:25,809", "Level": "ERROR", "Message": "ERROR Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7f865ec8e700>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:46:06,526", "Level": "ERROR", "Message": "ERROR Server - HTTP_HOST header contains invalid value", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.DisallowedHost'>, DisallowedHost(), <traceback object at 0x7ff52c0b16c0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 242, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 15:49:20,976", "Level": "CRITICAL", "Message": "CRITICAL Server - HTTP_HOST header contains invalid value", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.DisallowedHost'>, DisallowedHost(), <traceback object at 0x7fe8cf626440>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 247, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 16:00:40,976", "Level": "CRITICAL", "Message": "CRITICAL Request - The request is malformed and cannot be processed", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.BadRequest'>, BadRequest(), <traceback object at 0x7fc12abca8c0>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 233, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 16:01:30,537", "Level": "CRITICAL", "Message": "CRITICAL Server - HTTP_HOST header contains invalid value", "Path": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", "Stack": "(<class 'django.core.exceptions.DisallowedHost'>, DisallowedHost(), <traceback object at 0x7f87b2236d80>)"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 247, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost

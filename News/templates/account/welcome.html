@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link href="{% static 'css/sign.css' %}" rel="stylesheet">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+    <h1 align="center">Добро пожаловать на наш новостной портал!!!</h1>
+
+    {% block content %}{% endblock content %}
+    <p align="center"><b><a href="{% url 'list' %}">Войти на сайт без регистрации</a></b></p>
+    <p align="center"><b><a href="/accounts/login/">Войти через Google</a></b></p>
+    <hr>
+    <div align="center">
+        <h3 align="center">ИТОГОВОЕ ЗАДАНИЕ 16.4 (HW-03) Логирование</h3>
+        <button class="button-test-logging"><a href="{% url 'logging' %}">Перейти</a></button>
+    </div>
+</body>
+</html>

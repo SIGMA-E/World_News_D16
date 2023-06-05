@@ -1,0 +1,138 @@
+"Time": "2023-06-04 12:25:06,505", "Level": "ERROR", "Module": "views", "Message": "ERROR Template - The exception used for syntax errors during parsing or rendering"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 252, in check_logs_buttons_task_3
+    raise TemplateSyntaxError
+django.template.exceptions.TemplateSyntaxError
+"Time": "2023-06-04 12:25:39,839", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:26:57,483", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 12:26:58,632", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 12:27:06,649", "Level": "ERROR", "Module": "views", "Message": "ERROR DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 269, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:27:11,175", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:27:23,698", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 12:27:24,891", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 12:27:29,740", "Level": "ERROR", "Module": "views", "Message": "ERROR DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 269, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:27:35,657", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 12:55:01,591", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL DataBase - Some kind of problem with a model field"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 274, in check_logs_buttons_task_3
+    raise FieldError
+django.core.exceptions.FieldError
+"Time": "2023-06-04 14:14:51,434", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 14:17:01,321", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:17:22,740", "Level": "INFO", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:17:57,800", "Level": "INFO", "Module": "views", "Message": "INFO ERROR - The user did not have permission to do that"
+"Time": "2023-06-04 14:18:25,177", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py changed, reloading."
+"Time": "2023-06-04 14:18:26,416", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 14:18:35,952", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:18:42,355", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:18:49,256", "Level": "ERROR", "Module": "views", "Message": "INFO ERROR - The user did not have permission to do that"
+"Time": "2023-06-04 14:19:24,532", "Level": "CRITICAL", "Module": "views", "Message": "INFO CRITICAL - The user did not have permission to do that"
+"Time": "2023-06-04 14:25:36,049", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:25:49,612", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:26:14,568", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:27:36,189", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 14:27:38,836", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:27:42,155", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:29:29,398", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:31:25,996", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 14:47:04,227", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:47:08,066", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:47:52,893", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:49:14,331", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:51:06,056", "Level": "ERROR", "Module": "views", "Message": "ERROR Request - The request is malformed and cannot be processed"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 14:54:39,952", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:54:43,765", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:54:56,469", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 14:54:58,405", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 15:01:20,574", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 15:02:31,850", "Level": "INFO", "Module": "views", "Message": "INFO Security - The user did not have permission to do that"
+"Time": "2023-06-04 15:02:42,343", "Level": "WARNING", "Module": "views", "Message": "INFO Warning - The user did not have permission to do that"
+"Time": "2023-06-04 15:02:45,156", "Level": "ERROR", "Module": "views", "Message": "INFO ERROR - The user did not have permission to do that"
+"Time": "2023-06-04 15:02:56,894", "Level": "CRITICAL", "Module": "views", "Message": "INFO CRITICAL - The user did not have permission to do that"
+"Time": "2023-06-04 15:07:23,755", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:09:05,315", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:17:33,404", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:27:45,355", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:28:22,584", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:28:55,719", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:29:24,413", "Level": "ERROR", "Module": "views", "Message": "ERROR Request - The request is malformed and cannot be processed"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:33:08,138", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:33:09,349", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:33:14,578", "Level": "ERROR", "Module": "views", "Message": "ERROR Request - The request is malformed and cannot be processed"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:34:09,467", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:34:10,731", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:34:30,409", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:34:52,171", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:35:01,029", "Level": "ERROR", "Module": "views", "Message": "ERROR Request - The request is malformed and cannot be processed"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:38:33,780", "Level": "ERROR", "Module": "views", "Message": "ERROR Server - HTTP_HOST header contains invalid value"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 242, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 15:39:46,045", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:39:47,117", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:40:05,267", "Level": "ERROR", "Module": "views", "Message": "ERROR Request - The request is malformed and cannot be processed"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 228, in check_logs_buttons_task_3
+    raise BadRequest
+django.core.exceptions.BadRequest
+"Time": "2023-06-04 15:40:48,254", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:40:49,453", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:41:00,599", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:45:59,733", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:46:06,526", "Level": "ERROR", "Module": "views", "Message": "ERROR Server - HTTP_HOST header contains invalid value"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 242, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 15:49:04,549", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 15:49:05,663", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 15:49:20,976", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL Server - HTTP_HOST header contains invalid value"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 247, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 15:54:17,271", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
+"Time": "2023-06-04 16:01:24,846", "Level": "INFO", "Module": "autoreload", "Message": "Watching for file changes with StatReloader"
+"Time": "2023-06-04 16:01:30,537", "Level": "CRITICAL", "Module": "views", "Message": "CRITICAL Server - HTTP_HOST header contains invalid value"
+Traceback (most recent call last):
+  File "/home/sigma-e/Pyprojects/WorldNews/News/news_portal/views.py", line 247, in check_logs_buttons_task_3
+    raise DisallowedHost
+django.core.exceptions.DisallowedHost
+"Time": "2023-06-04 16:01:56,932", "Level": "INFO", "Module": "autoreload", "Message": "/home/sigma-e/Pyprojects/WorldNews/News/News/settings.py changed, reloading."
